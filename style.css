@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(71, 32, 183);
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+.nav div{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    
+}
+
+.nav div a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav div a:hover{
+    color: rgb(153, 136, 204);
+    transition: 0.5s;
+}
+
+.c1 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(laptop.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 720px;
+    width: 75%;
+}
+
+.cp {
+    padding-left: 100px;
+}
+.c11{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    margin-top: 300px;
+    font-weight: 500;
+}
+.c12{
+    font: normal normal bold 88px/1.4em avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;;
+    color: white;
+}
+
+.c13 {
+    color: white;
+    font-style: italic;
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+
+.circle{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto ;
+    border-radius: 75px;
+    background-image: url(profile_grey.jpg);
+    background-size: 150px;
+    scale: 0.8;
+    /* align-self: center; */
+}
+
+.rect {
+    display: inline-block;
+    height: 720px;
+    width: 25%;
+    background-color: rgb(71, 32, 183);
+    z-index: -2;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rect .txt {
+    color: white;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 16px;
+    height: 20px;
+    display: block;
+    margin: 5px 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#email{
+    margin-top: 70px;
+}
+
+#name{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font: normal normal bold 30px/1.4em avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+}
+
+#btn{
+    background-color: white;
+    color: rgb(71, 32, 183);
+    padding: 15px 0;
+    font-weight: bold;
+    width: 200px;
+    align-self: center;
+    text-decoration: none;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.about{
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(230, 230, 230);
+    align-items: start;
+}
+
+.progress{
+    position: sticky;
+    top: 95vh;
+    text-align: center;
+}
